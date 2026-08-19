@@ -1,8 +1,27 @@
 {
+  "name": "spotify-server",
+  "version": "1.0.0",
+  "description": "[![Node.js Version](https://img.shields.io/badge/Node.js-18%2B-22c55e?logo=node.js&style=flat-square)](https://nodejs.org) [![Python Version](https://img.shields.io/badge/Python-3.9%2B-3b82f6?logo=python&style=flat-square)](https://python.org) [![Zero Dependency](https://img.shields.io/badge/Dependencies-Zero%20(Node.js)-f97316?style=flat-square)](#) [![Protocol](https://img.shields.io/badge/Protocol-100%25%20Pure%20HTTP%20%2F%20GraphQL-10b981?style=flat-square)](#) [![RFC Compliance](https://img.shields.io/badge/Streaming-RFC%207233%20(HTTP%20206)-6366f1?style=flat-square)](#) [![License](https://img.shields.io/badge/License-MIT-64748b?style=flat-square)](#)",
+  "homepage": "https://github.com/foncxls/Spotify-server#readme",
+  "bugs": {
+    "url": "https://github.com/foncxls/Spotify-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foncxls/Spotify-server.git"
+  },
+  "license": "ISC",
+  "author": "Zack",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
   "dependencies": {
     "child_process": "^1.0.2",
     "crypto": "^1.0.1",
     "http": "^0.0.1-security",
     "readline": "^1.3.0"
-  }
+  },
+  "devDependencies": {}
 }
